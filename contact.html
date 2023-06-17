@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Personal Sub Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel&display=swap" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="./index.html">Home</a></li>
+                <li class="navbar-item"><a href="./contact.html">Get In Touch</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="contact">
+            <h1 class="contact-name"></h1>
+            <h2>Are you interested in collaborating with me ?</h2>
+            <h2>Feel free to contact me at anytime.</h2>
+            <div class="contact-icon">
+                <a href="https://wa.me/6281227057176?text=Hello%2C%20I'm%20Interested%20to%20collaborate%20with%20you.%20Let's%20discuss%20it%20%21"
+                    target="_blank">
+                    <img src="./img/whatsapp.png" alt="WhatsApp">
+                </a>
+                <a href="mailto:cenarahmant.dev@gmail.com?subject=Collaboration%20Opportunity&body=Hello%2C%0A%0AI'm%20interested%20in%20collaborating%20with%20you.%20Let's%20discuss%20further.%0A%0AThank%20you.%0A%0ARegards,%0A[Your Name]"
+                    target="_blank">
+                    <img src="./img/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-avicena"
+                    target="_blank">
+                    <img src="./img/linkedin.png" alt="Gmail">
+                </a>
+            </div>
+            <div class="background-header">
+                <img src="./img/programmerHeader.png"></img>
+            </div>
+        </div>
+        <script>
+            let person = prompt("What's your name ?");
+            let anonymous = "Anonymous";
+
+            if (person != null) {
+                const contactName = document.querySelector(".contact-name");
+                contactName.textContent = "Hello " + person + ",";
+            } else if (person == "") {
+                const contactName = document.querySelector(".contact-name");
+                contactName.textContent = "Hello " + anonymous + ",";
+            } else if (person == null) {
+                const contactName = document.querySelector(".contact-name");
+                contactName.textContent = "Hello " + anonymous + ",";
+            }
+        </script>
+    </section>
+    <footer>Copyright &copy; 2023 Muhammad Avicena</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
