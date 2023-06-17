@@ -36,6 +36,8 @@ You can find me on :
 ## Deployment
 The project has been successfully deployed using Netlify. You can access the production version of the website by following this link: [Avicena Week 1 Website](https://avicena-week1.netlify.app).
 
+Nb*: this project is the result that I have been created during bootcamp progamming at RevoU.
+
 Feel free to explore the website and try out the different features. I appreciate any feedback and suggestions to further improve the user experience.
 
 Happy browsing!
